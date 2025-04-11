@@ -26,7 +26,7 @@ public class Heladeria : MonoBehaviour
             if (helado == "CHO" || helado == "DDL")
             {
                 precioTotal = cuantoHelado * precioGramo;
-                Debug.Log("El helado elegido es" + helado + "y el precio total es de " + precioTotal);
+                Debug.Log("El helado elegido es " + helado + " y el precio total es de " + precioTotal);
             } else if (helado == "FRU")
             {
                 precioTotal = cuantoHelado * precioGramo;
